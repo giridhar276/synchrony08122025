@@ -1,0 +1,161 @@
+
+
+C datatypes 
+----------------
+int a = 10;
+float b = 34.43;
+char
+double 
+long 
+shorts
+
+
+- syntax of all objects 
+- methods 
+- conditions, loops
+- builtin functions
+- used defined functions
+
+
+
+python - objects 
+-----------------------
+number 
+string 
+list
+tuple 
+dictionary 
+set 
+
+
+number 
+----------
+number can be integer or decimal or octal or hexa.
+
+aval = 10
+bval = 43.43
+
+
+string 
+--------
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "java programming"
+cname = """unix programming"""
+dname = '''scala programming'''
+
+
+list ( array in C )
+--------------------------
+list contains set of elements.
+Elements can be numbers or strings or any combination.
+list is defined in [].
+
+alist = [10,20,30,40,0]
+blist = ["java","unix"]
+clist = [10,45.3,"java"]
+dlist = [[10,20],[30,40]]
+
+
+tuple ( immutable unchangeable uneditable)
+-------
+tuple contains set of elements.
+Elements can be numbers or strings or any combination.
+tuple is defined in ().
+*** Elements inside tuple cannot be modified directly ***
+
+
+atup = (30,40,50)
+btup = ("java",34.43,34)
+
+
+#list of lists
+# we can make any changes
+empdb = [["rita","1-1-1','F'],['sita','2-2-2','F'],['gita','3-3-3','F']]
+
+
+# list of tuples
+# I am giving access to add new employees but restrict access to make changes of the employee
+empdb = [("rita","1-1-1','F'),('sita','2-2-2','F'),('gita','3-3-3','F')]
+
+
+
+
+
+dictionary  ( json   hashmap    hash   items    pairs   assciativearray)
+---------------------
+dictionary contains keys and values.
+-keys are always unique 
+-key is used to identify the value just like indexing for list
+-key would be either number or string
+-value can be number or string or list or tuple or dictionary or any other data structure.
+
+
+syntax :   object = { key:value , key:value , key:value }
+example:   book   = {"chap1": 10 , "chap2":20 , "chap3":30 }
+            data  = {1:2,3:4,5:6}
+          bookinfo = {"chap1":["rita","UK"] , "chap2":["sita","US"]}
+
+
+
+book  - index 
+------
+chap1   10 
+chap2   20 
+chap3   30
+  
+
+set ( venn diagrams )
+----
+set is UNORDERED collection of UNIQUE elements of same type.
+
+aset = {10,10,10,20,30,30}
+
+
+
+requirement/task =    core python programming   + libraries    + domain expertise
+                       ( procedural/oop)
+
+
+
+conditions
+------------
+1. if 
+2. if-else 
+3. if-elif-elif-elif-elif-elif-elif-else
+
+
+
+C style 
+--------
+if ( 1 < 2)
+              {
+  # do something
+}
+
+
+level1
+level1
+level1
+if cond:
+    level2
+    level2
+    level2
+    level2
+level1 
+level1 
+level1 
+
+
+operators 
+------------
+
+arithmetic opeators :   +  -   *    %    /
+
+
+
+for ( i = 1; i <=10 ; i++)
+{
+  
+}
