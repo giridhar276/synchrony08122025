@@ -18,6 +18,8 @@ shorts
 
 
 
+
+
 python - objects 
 -----------------------
 number 
@@ -114,7 +116,7 @@ aset = {10,10,10,20,30,30}
 
 
 
-requirement/task =    core python programming   + libraries    + domain expertise
+requirement/task = core python programming   + good understaning of libraries   + domain expertise
                        ( procedural/oop)
 
 
@@ -143,6 +145,7 @@ if cond:
     level2
     level2
     level2
+
 level1 
 level1 
 level1 
@@ -157,5 +160,137 @@ arithmetic opeators :   +  -   *    %    /
 
 for ( i = 1; i <=10 ; i++)
 {
-  
+
 }
+
+
+
+function | definition | block 
+--------------------------------
+- reusable code 
+
+
+There are 2 types of functions 
+
+1. builtin functions 
+2. user defined functions 
+
+
+
+builtin functions 
+-------------------
+these functions are aleady created
+
+
+user defined functions 
+-------------------------
+
+
+
+
+
+
+
+
+#####################################
+# connect to database and insert all the records to table 
+####################################
+approach1:  top down program   ( without any user defined functions)
+                               ( Disadvantage: reusability is not possible )
+
+
+approach2:
+----------------
+def connect_db():
+    #####
+
+def define_query():
+    #### 
+
+def execute_query():
+    ####
+
+def display_output():
+    ####
+
+connect_db()
+define_query()
+execute_query()
+display_output()
+
+
+
+library | module | package
+--------------------------------
+- predefined methods of some particular activity 
+
+
+C language 
+---------------
+#include<stdio.h>
+#include<conio.h>
+#include<graphics.h>
+#include<datetime.h>
+#include<math.h>
+
+
+requirement/task =   core programming
+
+
+python  ( 7L+)
+---------
+
+There are 2 types of libraries 
+
+1. builtin libraries 
+---------------------------
+which are already available with python 
+when python is installed .. all the builtin libraries are installed.
+3000+ builtin libraries available 
+
+
+
+2. third party libraries 
+--------------------------
+Depending on the requirement developer has to install the third party library from 
+www.pypi.org website using pip tool.
+
+
+requirement
+----------------
+cloud automation
+finance related
+web scraping
+web development 
+analytics 
+visualisations 
+machine learninge 
+gen ai 
+test autmation 
+server autoamtion 
+network automation
+
+
+
+delete a file 
+----------------
+windows -  shift + delete 
+
+python - os.remove(filename)
+
+
+copy files from one path to another path  in python 
+---------------------
+shutil.copy(source,destination)
+
+
+cpu utilization/memory
+--------------------------
+psutil 
+
+
+
+
+history of analytics 
+librariew wrt analytics 
+ 

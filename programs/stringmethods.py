@@ -68,6 +68,7 @@ if 1 < 2 :
     print("true")
     print("inside condition")
     print("still inside condition")
+
 print("regular code")
 
 
