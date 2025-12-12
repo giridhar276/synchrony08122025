@@ -237,7 +237,7 @@ C language
 requirement/task =   core programming
 
 
-python  ( 7L+)
+python  ( 7L+) in www.pypi.org
 ---------
 
 There are 2 types of libraries 
@@ -289,8 +289,149 @@ cpu utilization/memory
 psutil 
 
 
+     R programing
+     SAS
 
 
-history of analytics 
-librariew wrt analytics 
- 
+
+2000--------------------2010----------------------  2020 ------------------------ 2025
+     automations                     pandasV1 
+                                      cloud tech                       genai
+     web dev                          ML libraries                     rag 
+     testing                          Deep learning                     agentic ai
+     web scraping
+     Python is NOT 
+     choice for analytics
+     numpy ,scipy
+
+
+
+
+langchain,langgraph ( gen ai libraries )
+  |
+keras,pytorch     ( Deep learning : image processing , text analytics)
+  |
+sklearn,statsmodel ( machine learning libraries used to predict,classification)
+  |
+matplotlib,seaborn ( visualisation libraries)
+  |
+pandas   (data analytics library)
+  |
+scipy    ( scientific formulas)
+  |
+numpy    ( numerical python)
+  |
+python
+
+
+
+pandas 
+-----------
+
+read from multiple data sources 
+
+csv 
+excel 
+xml 
+json 
+web 
+html 
+hdf 
+database 
+parquet 
+clipboard
+
+
+pandas - datastructures 
+-----------------------
+
+series ( 1 - D)
+dataframe  ( 2 -D)
+panel ( collection of dataframe)
+
+numpy
+----------
+array 
+
+
+
+
+file extensions 
+----------------
+hello.py  ( automations, programming)
+
+
+hello.ipynb ( analytics, ML usecases , data processing)
+            ( interactive python notebook)
+            ( notebooks)
+            ( jupyter notebooks )
+
+
+
+
+
+
+open mysql from start menu 
+
+
+password: rps12345
+----------------------
+
+step1: display all existing databases
+----------------------------------------
+show databases ;
+
+
+step2: create your database
+---------------------------------
+create database empdb;
+
+
+step3: access your database 
+------------------------------
+use empdb;
+
+
+step4: creating table
+------------------------------
+create table employee( workclass varchar(100) , education varchar(100) );
+
+
+step5:
+------
+insert into employee values('public','Phd');
+
+
+step6: display all records
+------------------------
+select * from employee ;
+
+
+
+step1:  connecting  to database 
+step2:  define query 
+step3:  execute query 
+step4:  display the output 
+step5:  close the connection
+
+
+
+
+
+
+
+
+
+
+web page 
+-----------------
+
+
+HTML 
+CSS 
+node js 
+java/python/
+
+
+
+

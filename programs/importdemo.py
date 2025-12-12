@@ -13,6 +13,7 @@ print(m.floor(34.3))
 
 
 
+
 #method3  : importing required methods only
 from math import cos,sin 
 print(cos(1))
